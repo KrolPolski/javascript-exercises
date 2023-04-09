@@ -1,7 +1,8 @@
 
 const sumAll = function(firstNum, lastNum) {
     let runningTotal = 0;
-for (let i= lastNum - firstNum + 1; i > 0; i--)
+    let absoluteValue = Math.abs(firstNum - lastNum);
+for (let i= absoluteValue + 1; i > 0; i--)
 {
     runningTotal += i;
     
